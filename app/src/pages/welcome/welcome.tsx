@@ -1,5 +1,5 @@
 import React from "react";
-import ROUTES from "Constants/routes";
+//import ROUTES from "@Constants/routes";
 import { Link } from "react-router-dom";
 
 class Welcome extends React.Component {
@@ -23,12 +23,7 @@ class Welcome extends React.Component {
         <section className="section">
           <div className="container">
             <h2 className="title is-2">Samples</h2>
-            <div>
-              <Link to={ROUTES.MOTD}>Using the Electron store.</Link> <br />
-              <Link to={ROUTES.LOCALIZATION}>Changing locales.</Link> <br />
-              <Link to={ROUTES.UNDOREDO}>Undo/redoing actions.</Link> <br />
-              <Link to={ROUTES.CONTEXTMENU}>Custom context menu.</Link> <br />
-            </div>
+            <div>Test</div>
           </div>
         </section>
       </React.Fragment>
