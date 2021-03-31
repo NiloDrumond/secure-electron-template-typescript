@@ -7,7 +7,6 @@
       "@render/*": ["./render/*"],
       "@assets/*": ["./assets/*"],
       "@shared/*": ["./modules/shared/*"],
-      "@code/*": ["./modules/code/*"],
       "@components/*": ["./components/*"],
       "@utils/*": ["./utils/*"],
       "@hooks/*": ["./hooks/*"]

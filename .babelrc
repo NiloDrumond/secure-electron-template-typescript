@@ -5,12 +5,15 @@
       {
         "cwd": "babelrc",
         "alias": {
-          "Constants": "./app/src/constants",
-          "Components": "./app/src/components",
-          "Core": "./app/src/core",
-          "Pages": "./app/src/pages",
-          "Redux": "./app/src/redux",
-          "I18n": "./app/localization"
+          "@": "./app/src",
+          "@shared": "./app/src/modules/shared",
+          "@code": "./app/src/modules/code",
+          "@utils": "./app/src/utils",
+          "@render": "./app/src/render",
+          "@assets": "./app/src/assets",
+          "@hooks": "./app/src/hooks",
+          "@components": "./app/src/components",
+          "@I18n": "./app/localization"
         }
       },
       "@babel/plugin-syntax-dynamic-import"
